@@ -1,13 +1,11 @@
 import React from "react";
-import styled from "styled-components";
-import PropTypes from "prop-types";
+
 
 const propTypes = {};
 const defaultProps = {Theme:"Light"};
 
 const About = (props) => {
   let CardTheme = props.Theme==="Light" ? "primary" : "success";
-  // console.log(CardTheme);
   return (
       <>
     <div className="d-flex justify-content-center align-item align-items-center">
